@@ -149,10 +149,6 @@ function timer() {
     
     document.querySelector("#M img").style.transform =
       "translate(" + coords[13][0] + "px, " + (coords[13][1] + 460 ) + "px)";
-    
-    
-
-    
   };
 
   updateContainer();
