@@ -3,6 +3,19 @@ body{
   margin:none;
   overflow:hidden;
 }
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader-svg {
+  animation: rotate 1s ease infinite;
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .world{ 
   position:absolute;
   width:    144px;
