@@ -1,5 +1,6 @@
 body{
   background:black;
+  margin:none;
   overflow:hidden;
 }
 .world{ 
