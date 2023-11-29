@@ -23,12 +23,14 @@ body{
   height:   100%;
   left:  50%;
   overflow:hidden;
+  z-index:9;
 }
 .worldL{
   position:absolute;
   width:   50vw;
   height:   100%;
   overflow:hidden;
+  z-index:9;
 }
 .worldR{
   position:absolute;
@@ -36,12 +38,14 @@ body{
   height:   100%;
   left:  50%;
   overflow:hidden;
+  z-index:9;
 }
 .worldM{
   position:absolute;
   width:    144px;
   left:  50%;
   overflow:hidden;
+  z-index:9;
 }
 .dot{
   position:absolute;
